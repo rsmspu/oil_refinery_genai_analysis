@@ -9,7 +9,7 @@ Original file is located at
 This is a streamlit app of a simpler version! To run please follow these steps:
 To run:
 1. pip install streamlit pandas numpy plotly
-2. streamlit run standalone_demo.py
+2. streamlit run 05_streamlit_webapp.py
 3. Open http://localhost:8501
 """
 
