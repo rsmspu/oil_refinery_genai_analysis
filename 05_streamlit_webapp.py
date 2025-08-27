@@ -13,8 +13,6 @@ To run:
 3. Open http://localhost:8501
 """
 
-!pip install streamlit
-
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -505,7 +503,7 @@ def run_demo_pipeline(months, n_logs, contamination, time_window):
         }
 
         time.sleep(1)
-        st.experimental_rerun()
+        st.rerun()
 
 def display_demo_overview(months, n_logs, contamination):
     """Display demo overview and expectations"""
